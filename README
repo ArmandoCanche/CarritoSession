@@ -1,0 +1,24 @@
+Notas:
+1. En dado caso que quieras hacer una página donde el Login sea obligatorio
+para evitar que entren a la página con solo editar la barra de búsqueda o la barra
+URL se puede implementar el código a continuación:
+
+/*
+<?php
+
+  session_start();
+
+  if(!isset($_SESSION['correo'])){
+    echo '
+       <script>
+           alert("Por favor debes iniciar sesión");
+       </script>
+    ';
+    header("location: login.html");
+    session_destroy();
+    die();
+  }
+
+?>
+
+Para que funcione, debes cambiar las páginas .html por .php, el código se agrega antes del h:5.

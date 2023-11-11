@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Pastel",
+        "imagen": "IMG/PastelChocolate.png",
+        "category": {
+            "nombre": "Pasteles",
+            "id": "pasteles"
+        },
+        "price": 150
+    },
+
+    { 
+        "title": "Pastel Fresa",
+        "imagen": "IMG/PastelFresas.png",
+        "category": {
+            "nombre": "Pasteles",
+            "id": "pasteles"
+        },
+        "price": 180
+    },
+
+    {
+        "title": "Pastel Coco",
+        "imagen": "IMG/PastelCoco.png",
+        "category": {
+            "nombre": "Pasteles",
+            "id": "pasteles"
+        },
+        "price": 200
+    },
+
+    {
+        "title": "Pastel Tres Leches",
+        "imagen": "IMG/PastelTresLeches.png",
+        "category": {
+            "nombre": "Pasteles",
+            "id": "pasteles"
+        },
+        "price": 165
+    },
+
+
+
+
+
+
+    {
+        "title": "Pay Queso",
+        "imagen": "IMG/PayQueso.png",
+        "category": {
+            "nombre": "Pay",
+            "id": "pay"
+        },
+        "price": 95
+    }
+]
