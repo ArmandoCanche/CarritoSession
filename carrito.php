@@ -110,7 +110,7 @@ if (isset($_REQUEST["btnActualizar"])) {
       <tbody>";
                         foreach ($_SESSION["carrito"] as $indice => $arreglo) {
                             echo "<tr style='width: 600px;'>
-          <td class='table-warning' style='width: 100px;' align='center'><img src='imagenes/$indice.jpeg' width='100'></td>
+          <td class='table-warning' style='width: 100px;' align='center'><img src='IMG/$indice.png' width='100'></td>
           <td style='width: 300px;'><h4 class='h4'>$indice</h4>";
                             $cantidad = $arreglo["cant"];
                             $precio = $arreglo["precio"];
