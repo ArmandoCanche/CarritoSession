@@ -60,7 +60,7 @@ function borrar($producto)
             <h1 class="h1" align="center">Productos disponibles</h1>
             <?php
                         if (!isset($_SESSION["carrito"])) {
-                            echo "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
+                            echo "<div class='alert alert-dark alert-dismissible fade show' role='alert'>
                             <strong>Su carrito está vacío</strong> Agregue un producto para continuar con su compra.
                             <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                         </div>";
