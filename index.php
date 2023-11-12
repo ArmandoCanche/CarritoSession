@@ -80,7 +80,7 @@ function borrar($producto)
                     </thead>
                     <tbody>
                         <tr style="width: 600px;" align="center">
-                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelChocolate.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/Pastel de chocolate.png" style="margin-left: 20px;" width="100"></td>
                             <td class="table-primary" style="width: 300px;">Pastel de chocolate</td>
                             <td class="table-primary" style="width: 100px;">$400</td>
                             <td class="table-primary" style="width: 300px;">
@@ -105,7 +105,7 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelCoco.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/Pastel de coco.png" style="margin-left: 20px;" width="100"></td>
                             <td class="table-primary" style="width: 300px;">Pastel de coco</td>
                             <td class="table-primary" style="width: 100px;">$400</td>
                             <td class="table-primary" style="width: 300px;">
@@ -130,7 +130,7 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelFresas.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/Pastel de fresas.png" style="margin-left: 20px;" width="100"></td>
                             <td class="table-primary" style="width: 300px;">Pastel de fresas</td>
                             <td class="table-primary" style="width: 100px;">$450</td>
                             <td class="table-primary" style="width: 300px;">
@@ -155,7 +155,7 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelTresLeches.png"style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/Pastel de tres leches.png"style="margin-left: 20px;" width="100"></td>
                             <td class="table-primary" style="width: 300px;">Pastel de tres leches</td>
                             <td class="table-primary" style="width: 100px;">$350</td>
                             <td class="table-primary" style="width: 300px;">
@@ -180,7 +180,7 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-primary" style="width: 100px;"><img src="IMG/PayQueso.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/Pay de queso.png" style="margin-left: 20px;" width="100"></td>
                             <td class="table-primary" style="width: 300px;">Pay de queso</td>
                             <td class="table-primary" style="width: 100px;">$300</td>
                             <td class="table-primary" style="width: 300px;">
