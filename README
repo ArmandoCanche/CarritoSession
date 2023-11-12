@@ -22,3 +22,16 @@ URL se puede implementar el código a continuación:
 ?>
 
 Para que funcione, debes cambiar las páginas .html por .php, el código se agrega antes del h:5.
+
+
+
+Para que puedas acceder a la página de productos y ver la funcionalidad del carrito, se debe sólo se debe crear una base de datos llamada: login_registrar_db
+
+Donde dentro de esa base de datos, se crea una tabla llamada : usuarios
+
+La cual debe contener 4 columnas: id, nombre_completo, correo, contrasena
+
+id de tipo int, con autoincrementado
+nombre_completo de tipo VAR, con longitud de valores máximo 50
+correo de tipo VAR, con longitud de valores máximo 50
+contrasena de tipo VAR, con longitud de valores máximo 50
