@@ -248,7 +248,7 @@ main {
 
 .action-cart {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
 }
 
 .empty-actions-cart {
@@ -263,6 +263,8 @@ main {
 
 .right-acciones-cart {
     display: flex;
+    margin-left: 2em;
+    padding-left: 2em;
 }
 
 .total-action-cart {
