@@ -68,11 +68,11 @@ function borrar($producto)
                         ?>
             <div class="p-3 table-responsive">
 
-                <table class="table table-striped align-middle " style="table-border-factor: 2rem;" align="center">
-                    <thead class="table" style="">
+                <table class="table table-striped table-secondary align-middle"  align="center">
+                    <thead class="table-primary" >
                         <tr align="center">
                             <th>Producto</td>
-                            <th>Descripción</td>
+                            <th>Tipo de postre</td>
                             <th>Precio</td>
                             <th>Agregar</td>
                             <th>Eliminar</td>
@@ -80,23 +80,23 @@ function borrar($producto)
                     </thead>
                     <tbody>
                         <tr style="width: 600px;" align="center">
-                            <td class="table-secundary" style="width: 100px;"><img src="IMG/PastelChocolate.png" width="100"></td>
-                            <td class="table-secundary" style="width: 300px;">Pulsera corazón con hilo sencillo rojo</td>
-                            <td style="width: 100px;">$40</td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelChocolate.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 300px;">Pastel de chocolate</td>
+                            <td class="table-primary" style="width: 100px;">$400</td>
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera corazón con hilo sencillo rojo">
-                                    <input type="number" name="cant" value="1" min="1" style="width: 50px">
-                                    <input type="hidden" name="txtPrecio" value="40">
+                                    <input type="hidden" name="txtProducto" value="Pastel de chocolate">
+                                    <input type="number" name="cant" value="1" min="1" style="width: 50px;" >
+                                    <input type="hidden" name="txtPrecio" value="400">
                                     <p></p>
                                     <input type="submit" name="btnAgregar" value="Agregar" class="btn btn-secondary">
                                 </form>
                             </td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera corazón con hilo sencillo rojo">
+                                    <input type="hidden" name="txtProducto" value="Pastel de chocolate">
                                     <?php
-                                    borrar('Pulsera corazón con hilo sencillo rojo');
+                                    borrar('Pastel de chocolate');
                                     ?>
                                     <p></p>
                                     <input type="submit" name="btnBorrar" value="Borrar" class="btn btn-secondary">
@@ -105,23 +105,23 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-secundary" style="width: 100px;"><img src="imagenes/Pulsera corazón con hilo de cera azul.jpeg" width="100"></td>
-                            <td class="table-secundary" style="width: 300px;">Pulsera corazón con hilo de cera azul</td>
-                            <td style="width: 100px;">$45</td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelCoco.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 300px;">Pastel de coco</td>
+                            <td class="table-primary" style="width: 100px;">$400</td>
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera corazón con hilo de cera azul">
+                                    <input type="hidden" name="txtProducto" value="Pastel de coco">
                                     <input type="number" name="cant" value="1" min="1" style="width: 50px">
-                                    <input type="hidden" name="txtPrecio" value="45">
+                                    <input type="hidden" name="txtPrecio" value="400">
                                     <p></p>
                                     <input type="submit" name="btnAgregar" value="Agregar" class="btn btn-secondary">
                                 </form>
                             </td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera corazón con hilo de cera azul">
+                                    <input type="hidden" name="txtProducto" value="Pastel de coco">
                                     <?php
-                                    borrar('Pulsera corazón con hilo de cera azul');
+                                    borrar('Pastel de coco');
                                     ?>
                                     <p></p>
                                     <input type="submit" name="btnBorrar" value="Borrar" class="btn btn-secondary">
@@ -130,23 +130,23 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-secundary" style="width: 100px;"><img src="imagenes/Pulsera caracol tejida.jpeg" width="100"></td>
-                            <td class="table-secundary" style="width: 300px;">Pulsera caracol tejida</td>
-                            <td style="width: 100px;">$45</td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelFresas.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 300px;">Pastel de fresas</td>
+                            <td class="table-primary" style="width: 100px;">$450</td>
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera caracol tejida">
+                                    <input type="hidden" name="txtProducto" value="Pastel de fresas">
                                     <input type="number" name="cant" value="1" min="1" style="width: 50px">
-                                    <input type="hidden" name="txtPrecio" value="45">
+                                    <input type="hidden" name="txtPrecio" value="450">
                                     <p></p>
                                     <input type="submit" name="btnAgregar" value="Agregar" class="btn btn-secondary">
                                 </form>
                             </td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera caracol tejida">
+                                    <input type="hidden" name="txtProducto" value="Pastel de fresas">
                                     <?php
-                                    borrar('Pulsera caracol tejida');
+                                    borrar('Pastel de fresas');
                                     ?>
                                     <p></p>
                                     <input type="submit" name="btnBorrar" value="Borrar" class="btn btn-secondary">
@@ -155,23 +155,23 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-secundary" style="width: 100px;"><img src="imagenes/Pulsera tejida rosa.jpeg" width="100"></td>
-                            <td class="table-secundary" style="width: 300px;">Pulsera tejida rosa</td>
-                            <td style="width: 100px;">$30</td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/PastelTresLeches.png"style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 300px;">Pastel de tres leches</td>
+                            <td class="table-primary" style="width: 100px;">$350</td>
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera tejida rosa">
-                                    <input type="number" name="cant" value="1" min="1" style="width: 50px">
-                                    <input type="hidden" name="txtPrecio" value="30">
+                                    <input type="hidden" name="txtProducto" value="Pastel de tres leches">
+                                    <input type="number" name="cant" value="1" min="1" style="width: 50px;" >
+                                    <input type="hidden" name="txtPrecio" value="350">
                                     <p></p>
                                     <input type="submit" name="btnAgregar" value="Agregar" class="btn btn-secondary">
                                 </form>
                             </td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera tejida rosa">
+                                    <input type="hidden" name="txtProducto" value="Pastel de tres leches">
                                     <?php
-                                    borrar('Pulsera tejida rosa');
+                                    borrar('Pastel de tres leches');
                                     ?>
                                     <p></p>
                                     <input type="submit" name="btnBorrar" value="Borrar" class="btn btn-secondary">
@@ -180,23 +180,23 @@ function borrar($producto)
                         </tr>
 
                         <tr style="width: 600px;" align="center">
-                            <td class="table-secundary" style="width: 100px;"><img src="imagenes/Pulsera perla tejida.jpeg" width="100"></td>
-                            <td class="table-secundary" style="width: 300px;">Pulsera perla tejida</td>
-                            <td style="width: 100px;">$33</td>
-                            <td style="width: 300px;">
+                            <td class="table-primary" style="width: 100px;"><img src="IMG/PayQueso.png" style="margin-left: 20px;" width="100"></td>
+                            <td class="table-primary" style="width: 300px;">Pay de queso</td>
+                            <td class="table-primary" style="width: 100px;">$300</td>
+                            <td class="table-primary" style="width: 300px;">
                                 <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera perla tejida">
+                                    <input type="hidden" name="txtProducto" value="Pay de queso">
                                     <input type="number" name="cant" value="1" min="1" style="width: 50px">
-                                    <input type="hidden" name="txtPrecio" value="33">
+                                    <input type="hidden" name="txtPrecio" value="300">
                                     <p></p>
                                     <input type="submit" name="btnAgregar" value="Agregar" class="btn btn-secondary">
                                 </form>
                             </td>
-                            <td style="width: 300px;">
-                                <form action="index.php" method="POST">
-                                    <input type="hidden" name="txtProducto" value="Pulsera perla tejida">
+                            <td class="table-primary" style="width: 300px;">
+                                <form  action="index.php" method="POST">
+                                    <input type="hidden" name="txtProducto" value="Pay de queso">
                                     <?php
-                                    borrar('Pulsera perla tejida');
+                                    borrar('Pay de queso');
                                     ?>
                                     <p></p>
                                     <input type="submit" name="btnBorrar" value="Borrar" class="btn btn-secondary">
