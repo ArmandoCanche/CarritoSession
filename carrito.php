@@ -53,6 +53,7 @@ if (isset($_REQUEST["btnActualizar"])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="CSS/carrito.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
 </head>
 
 <body>
@@ -101,11 +102,11 @@ if (isset($_REQUEST["btnActualizar"])) {
                     <?php
                     $total = 0;
                     if (isset($_SESSION["carrito"])) {
-                        echo "<table class='' style='width: 600px;' align='center'>
+                        echo "<table class=' table-striped' style='width-max: 600px;' align='center'>
       <tbody>";
                         foreach ($_SESSION["carrito"] as $indice => $arreglo) {
                             echo "<tr style='width: 600px;'>
-          <td class='table-warning' style='width: 100px;' align='center'><img src='IMG/$indice.png' width='100'></td>
+          <td class='' style='width-max: 100px;' align='center'><img src='IMG/$indice.png' width='100'></td>
           <td style='width: 300px;'><h4 class='h4'>$indice</h4>";
                             $cantidad = $arreglo["cant"];
                             $precio = $arreglo["precio"];
@@ -113,7 +114,7 @@ if (isset($_REQUEST["btnActualizar"])) {
                             echo "<form action='carrito.php' method='POST'>
                 <input type='hidden' name='txtProducto' value='$indice'>
                 Cantidad: <input type='number' name='cant' value='$cantidad' min='0' style='width: 50px'> &nbsp;&nbsp;
-                <input type='submit' name='btnActualizar' value='Actualizar' class='btn btn-warning'>
+                <input type='submit' name='btnActualizar' value='Actualizar' class='btn btn-dark'>
               </form>";
                             echo "Precio: $$precio<br>";
                             echo "<a href= 'carrito.php?producto=$indice'> Eliminar producto</a> <br>";
