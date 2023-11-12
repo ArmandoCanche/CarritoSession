@@ -101,12 +101,7 @@ if (isset($_REQUEST["btnActualizar"])) {
                     <?php
                     $total = 0;
                     if (isset($_SESSION["carrito"])) {
-                        echo "<table class='table table-striped table-danger' style='width: 600px;' align='center'>
-      <thead class='table-info'>
-        <tr align='center'>
-          <th colspan='2'><h1 class='h1'>Carrito de compras</h1></td>
-        </tr>
-      </thead>
+                        echo "<table class='' style='width: 600px;' align='center'>
       <tbody>";
                         foreach ($_SESSION["carrito"] as $indice => $arreglo) {
                             echo "<tr style='width: 600px;'>
